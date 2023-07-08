@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+header {
+    background-color: #7F56F5;
+    padding: 20px 0 20px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 400px;
+    float: left;
+
+}
+
+.logo img {}
+
+nav {
+
+    width: 800px;
+    float: left;
+}
+
+nav ul {
+
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Banner section start */
+.banner {
+    background-color: #7F56F5;
+    padding: 150px 0px 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.banner h1 {
+
+    margin: 0px;
+
+    font-size: 50px;
+}
+
+.banner p {}
+
+/* main stat */
+main {}
+
+.blog-items {}
+
+.single-item {
+    margin: 70px 0;
+    overflow: hidden;
+}
+
+.text {
+    width: 50%;
+    float: left;
+}
+
+.one {
+    margin: 0px 50px 0px 0px;
+
+}
+
+.text img {}
+
+.text h1 {
+    font-size: 39px;
+    text-transform: capitalize;
+}
+
+.text p {}
+
+.photo {
+    width: 50%;
+    float: left;
+}
+
+.photo img {}
+
+/* Button */
+
+.primary-btn {
+    background-color:#7F56F5;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.primary-btn:hover{
+    background-color: #555;
+}
+.footer{
+
+background-color: ghostwhite;
+
+padding: 40px 0px;
+}
+.holder{
+    width: 1200px;
+    margin: auto;
+    display:flex;
+    /* background-color: ghostwhite; */
+}
+.logo2{
+
+width: 400px;
+
+float: left;
+}
+.row{
+    width: 800px;
+    display:flex;
+    /* float: left; */
+}
+.footer-column{
+    padding: 0px 60px 0px 75px;
+}
+.footer-column h4{}
+.footer-column ul{
+    /* list-style: none; */
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li{list-style: none;padding: 10px 0px;}
+.footer-column ul li a{
+    text-decoration: none;
+    /* font-weight: 100; */
+    color: black;
+}
+.para{
+    
+width: 200px;
+}
+.footer-img{
+
+width: 1200px;
+
+margin: 0px 300px;
+}
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5c10c0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e56f5c8; 
+  }
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #7F56F5; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px 18px; /* Some padding */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
